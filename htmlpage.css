@@ -1,0 +1,81 @@
+
+.left img {
+    width: 100px;
+    padding:10px 0 0 250px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(68, 68, 66);
+
+}
+
+.right a {
+    color: aliceblue;
+    padding: 10px;
+    text-decoration: none;
+
+
+}
+
+.right a:hover {
+    color: aqua;
+    background-color: blue;
+}
+
+.right {
+    padding: 40px 50px;
+    
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+
+}
+.left1{
+    background-color: bisque;
+    width:400px;
+}
+
+.heading {
+    width: 1000px;
+    border: 1px solid black;
+}
+
+.heading h1 {
+    text-align: center;
+}
+
+.form {
+    border: 1px solid black;
+    padding: 0 0 0 20px;
+}
+
+.form h1 {
+    border: 1px solid black;
+    background-color: rgb(40, 185, 185);
+}
+.formdetails{
+    padding: 10px;
+    
+}
+.formdetails input{
+    /* width: 400px; */
+    padding: 5px;
+    margin: 5px;
+
+}
+button{
+    color: aqua;
+    
+}
+button:hover{
+    color: rgb(16, 190, 190);
+    background-color: blueviolet;
+    
+}
