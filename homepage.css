@@ -2,12 +2,12 @@
     width: 100px;
     padding: 10px 0 0 250px;
     
-}
-@media only screen and (max-width: 600px){
-    .left img{
-        padding: 4rem;
-    }
-}
+  }
+  @media only screen and (max-width: 600px){
+      .left img{
+          padding: 4rem;
+        }
+      }
 
 .homeimage{
     /* padding: 2.5rem 6.25rem 2.5rem 34.375rem ; */
@@ -19,8 +19,20 @@
     
     
     
-}
-
+  }
+  
+  .homeimage img{
+      width: 31.25rem;
+      position: relative;
+      margin-top: 5rem;
+      
+  }
+  
+  .homeimage h2{
+      color: aliceblue;
+      padding:40px 0 0 130px;
+      text-shadow: 5px 5px 5px 5px wheat;
+    }
 
 
 .container {
@@ -34,6 +46,7 @@
     .homeimage{
         /* padding: 3rem 9rem 2rem 0rem  ; */
         justify-content: center;
+        text-align: center;
         
        
     }
@@ -41,8 +54,14 @@
         
         position: relative;
         height: auto;
+        width: 15rem;
+        padding-left: 3rem;
+      
         
-        
+    }
+    .homeimage h2{
+      padding: 0 3rem;
+    
     }
 
 }
@@ -50,17 +69,18 @@
     color: aliceblue;
     padding: 10px;
     text-decoration: none;
-    display: block;
+    
+    
    
     text-align: center;
-    /* padding: 14px 16px; */
-    text-decoration: none;
-    /* font-size: 17px; */
+   
+   
+    position: relative;
    
   }
-
-
-
+  
+  
+  
 
 
 
@@ -68,7 +88,7 @@
     color: aqua;
     background-color: blue;
 }
-.topnav .icon {
+.right .icon {
     display: none;
   }
 
@@ -79,6 +99,8 @@
     overflow: hidden;
     background-color: #333;
     display: flex;
+    position: relative;
+    flex-wrap: wrap;
 
 }
 .right a.active {
@@ -91,25 +113,10 @@
   }
   
   @media screen and (max-width: 600px) {
-    .right a:not(:first-child) {display: none;}
-    .right a.icon {
-      float: right;
-      display: block;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .right.responsive {position: relative;}
-    .right.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .right.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
+    .right a{
+      flex-direction: column;
+    } 
+   
   }
 
 
@@ -120,16 +127,4 @@
    
 
 }
-.homeimage img{
-    width: 31.25rem;
-    position: relative;
-    margin-top: 5rem;
     
-}
-
-.homeimage h2{
-    color: aliceblue;
-    padding:40px 0 0 130px;
-    text-shadow: 5px 5px 5px 5px wheat;
-    
-}
